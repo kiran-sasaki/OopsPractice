@@ -4,13 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            //Hierarchical Inheritance
-            Mammals mammals = new Mammals();
-            mammals.Type();
-            mammals.Dog();
-            Reptiles reptiles = new Reptiles();
-            reptiles.Type();
-            reptiles.Crocodile();
+            //MultiLevel Inheritance
+            Bird bird = new Bird();
+            bird.Type();
+            bird.Dog();
+            bird.Bat();
         }
     }
 }

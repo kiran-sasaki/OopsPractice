@@ -20,11 +20,11 @@ namespace OopsPractice
             Console.WriteLine("Dog is A mammal");
         }
     }
-    public class Reptiles : Animal
+    public class Bird : Mammals
     {
-        public void Crocodile()
+        public void Bat()
         {
-            Console.WriteLine("Crocodile is a Reptile");
+            Console.WriteLine("Bat is bird and also Mammal");
         }
     }
 }
