@@ -4,10 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            //Single Level Inheritance
+            //Hierarchical Inheritance
             Mammals mammals = new Mammals();
             mammals.Type();
             mammals.Dog();
+            Reptiles reptiles = new Reptiles();
+            reptiles.Type();
+            reptiles.Crocodile();
         }
     }
 }
