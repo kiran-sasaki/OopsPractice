@@ -4,11 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            //MultiLevel Inheritance
-            Bird bird = new Bird();
-            bird.Type();
-            bird.Dog();
-            bird.Bat();
+            //PolyMorphism
+           //Method Overloading
+           AddNumbers addNumbers = new AddNumbers();
+            addNumbers.Add(4, 5);
+            addNumbers.Add(6, 7, 8);
         }
     }
 }
