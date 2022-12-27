@@ -4,10 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            //PolyMorphism
-            //Method Overriding
-            Subract subract = new Subract();
-            subract.Add(16,6);
+            //Encapsulation
+            Information info = new Information();
+            Console.WriteLine("Enter Name");
+            info.name = Console.ReadLine();
+            Console.WriteLine("Enter roll Number");
+            info.rollNo = int.Parse(Console.ReadLine());
+            Console.WriteLine("Name : {0} RollNo : {1}",info.name,info.rollNo);
         }
     }
 }
