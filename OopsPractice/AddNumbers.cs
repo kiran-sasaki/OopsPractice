@@ -8,15 +8,18 @@ namespace OopsPractice
 {
     public class AddNumbers
     {
-        public void Add(int a, int b)
+        public virtual void Add(int a, int b)
         {
             int c = a+ b;
             Console.WriteLine("c = "+c);
         }
-        public void Add(int a,int b, int c)
+    }
+    public class Subract : AddNumbers
+    {
+        public override void Add(int a, int b)
         {
-            int d= a+ b+ c;
-            Console.WriteLine("D = "+d);
+            int c=a- b;
+            Console.WriteLine("Sub c = "+c);
         }
     }
 }
